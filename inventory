@@ -1,0 +1,12 @@
+[all:vars]
+ansible_python_interpreter=python
+
+[ios]
+csr1 ansible_host=18.235.92.11
+
+[junos]
+vmx7
+
+[nxos]
+nxos-spine1
+
