@@ -4,6 +4,9 @@
   gather_facts: no
 
 
+  vars_files:
+    - "{{ playbook_dir }}/vars/secrets.yml"
+
   tasks:
     - name: "SHOW THE S3CR3t$"
       debug:
