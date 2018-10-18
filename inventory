@@ -2,7 +2,7 @@
 ansible_python_interpreter=python
 
 [ios]
-csr1 ansible_host=18.235.92.11
+csr1 
 
 [junos]
 vmx7
