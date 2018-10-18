@@ -1,0 +1,9 @@
+- name: "SHOW CREDS"
+  hosts: localhost
+  connection: local
+  gather_facts: no
+
+  tasks:
+    - name: "SHOW THE S3CR3t$"
+      debug:
+        msg: "SUPERSECRETUSERNAME: {{ ansible_user }} @^@ HAXXORPASSWD: {{ ansible_ssh_pass }}"

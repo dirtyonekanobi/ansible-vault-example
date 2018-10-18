@@ -1,0 +1,12 @@
+[all:vars]
+ansible_python_interpreter=python
+
+[ios]
+csr1 
+
+[junos]
+vmx7
+
+[nxos]
+nxos-spine1
+
